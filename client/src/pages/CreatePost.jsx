@@ -27,6 +27,8 @@ const CreatePost = () => {
 						method: "POST",
 						headers: {
 							"Content-Type": "application/json",
+							"Access-Control-Allow-Origin":
+								"https://ai-image-smoky.vercel.app",
 						},
 						body: JSON.stringify({ prompt: form.prompt }),
 					}
@@ -70,6 +72,8 @@ const CreatePost = () => {
 						method: "POST",
 						headers: {
 							"Content-Type": "application/json",
+							"Access-Control-Allow-Origin":
+								"https://ai-image-smoky.vercel.app",
 						},
 						body: JSON.stringify(form),
 					}
