@@ -53,8 +53,6 @@ const Home = () => {
 						method: "GET",
 						headers: {
 							"Content-Type": "application/json",
-							"Access-Control-Allow-Origin":
-								"https://ai-image-smoky.vercel.app",
 						},
 					}
 				);
